@@ -1,13 +1,7 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to BatteryML's documentation!
+=====================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+**BatteryML** is a Python library for general battery degradation modeling. It incorporates out-of-the-box machine learning algorithms and reorganizes existing public datasets for battery degradation modeling. It contains major tasks such as early battery lifespan estimation, state of health estimation, and state of charge estimation. It is designed with extensibility in mind, easily adapted to various data input formats and different downstream tasks.
 
 .. note::
 
@@ -18,5 +12,7 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   quickstart
+   data
+   tasks
+   benchmarks
