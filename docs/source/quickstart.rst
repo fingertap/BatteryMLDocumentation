@@ -19,7 +19,7 @@ Download public data.
 
 Preprocess the data into ``BatteryData`` format, which records the complete cycling information of a battery cell. ``BatteryData`` provides a unified and easy-to-extend interface to deal with historical battery cycling data. Checkout the :doc:`data` section for further detail, and have a look at :ref:`data`
 
-.. code-block:: 
+.. code-block:: bash
     python process
 
 Now you should see the batteries organized in the folder ``data/processed/MATR``, each battery corresponding to one ``pkl`` file.
